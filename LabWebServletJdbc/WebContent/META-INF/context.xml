@@ -5,7 +5,5 @@
 <<<<<<< HEAD
                username="sa" password="sa123456" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
 =======
-               username="sa" password="P@ssw0rd" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
->>>>>>> branch 'master' of https://github.com/EEIT9704/RemoteRepository0922.git
                url="jdbc:sqlserver://localhost:1433;database=java"/>
 </Context>
