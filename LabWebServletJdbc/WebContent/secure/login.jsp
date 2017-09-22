@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
@@ -24,7 +25,9 @@
 	</tr>
 	<tr>
 		<td>PWD : </td>
-		<td><input type="text" name="password" placeholder="Enter password" value="${param.password}"></td>
+
+
+
 		<td>${error.password}</td>
 	</tr>
 	<tr>
