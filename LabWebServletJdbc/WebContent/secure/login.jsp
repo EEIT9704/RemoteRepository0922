@@ -26,6 +26,34 @@
 		<td>PWD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
 =======
+<<<<<<< HEAD
+=======
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="" />
+
+<title>Login</title>
+</head>
+<body>
+
+<h3>Login</h3>
+
+<form action="<c:url value="/secure/login.controller" />" method="get">
+<table>
+	<tr>
+		<td>ID : </td>
+		<td><input type="text" name="username" value="${param.username}"></td>
+		<td>${error.username}</td>
+	</tr>
+	<tr>
+		<td>PWD : </td>
+		<td><input type="text" name="password" value="${param.password}"></td>
+
+>>>>>>> branch 'master' of https://github.com/EEIT9704/RemoteRepository0922.git
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,6 +77,10 @@
 	<tr>
 		<td>PWD : </td>
 		<td><input type="text" name="password" placeholder="Enter password" value="${param.password}"></td>
+<<<<<<< HEAD
+=======
+
+>>>>>>> branch 'master' of https://github.com/EEIT9704/RemoteRepository0922.git
 >>>>>>> branch 'master' of https://github.com/EEIT9704/RemoteRepository0922.git
 		<td>${error.password}</td>
 	</tr>
