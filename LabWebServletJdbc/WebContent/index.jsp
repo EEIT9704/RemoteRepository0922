@@ -11,9 +11,6 @@
 
 <h3>Welcome ${user.custid}</h3>
 
-<h1>你好嗎</h1>
-<h2>幫QQ</h2>
-=======
 
 <h3>Welcome ${user.custid} again</h3>
 
@@ -22,6 +19,7 @@
 <h2>呵呵呵呵幫QQ</h2>
 <h1>你好嗎</h1>
 <h2>呵呵呵呵</h2>
+<h1>QQQQQqq</h1>
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
